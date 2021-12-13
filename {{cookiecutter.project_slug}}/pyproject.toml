@@ -26,7 +26,7 @@ classifiers = [
 ]
 
 packages = [
-    { include = "{{ cookiecutter.package_name }}", from = "src" }
+    { include = "{{ cookiecutter.package_name }}" }
 ]
 
 [tool.poetry.dependencies]
